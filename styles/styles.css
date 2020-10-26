@@ -1,1 +1,147 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+@font-face {
+  font-family: 'LightPixel';
+  src: url("/fonts/light_pixel/VCR_OSD_MONO_1.001.ttf");
+}
+
+@font-face {
+  font-family: 'HeavyPixel';
+  src: url("/fonts/heavy_pixel/04B_30__.TTF");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: LightPixel;
+  overflow: hidden;
+}
+
+.main {
+  background-image: url("/background/background.jpg");
+  min-height: 100vh;
+}
+
+.app {
+  background-color: red;
+  width: 30%;
+  margin: auto;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.topApp {
+  background-color: aquamarine;
+  height: 56vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.topApp .lifebar {
+  margin: auto;
+}
+
+.topApp .actualUpgrade {
+  margin: auto;
+  background-color: cornflowerblue;
+  width: 100%;
+  height: 5rem;
+  text-align: center;
+}
+
+.topApp .DMGs {
+  background-color: darkblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.bottomApp {
+  background-color: blueviolet;
+  height: 40vh;
+  padding: 20px;
+}
+
+.bottomApp .upgradeMenu {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bottomApp .upgradeMenu .upgrade {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: crimson;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 20px;
+}
+
+.bottomApp .upgradeMenu .upgrade p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bottomApp .upgradeMenu .upgrade button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: none;
+  color: black;
+  font-family: LightPixel;
+  font-size: 20px;
+  background-color: orange;
+}
+
+.bottomApp .upgradeMenu * {
+  margin: auto;
+  text-align: center;
+}
+
+.enemy {
+  margin: auto;
+}
+
+.enemy img {
+  width: 100px;
+  position: relative;
+}
+/*# sourceMappingURL=styles.css.map */
