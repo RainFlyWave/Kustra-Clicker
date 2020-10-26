@@ -23,7 +23,7 @@ body{
 }
 
 .app{
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0);
     width: 30%;
     margin: auto;
     min-height: 100vh;
@@ -32,7 +32,7 @@ body{
 }
 
 .topApp{
-    background-color: aquamarine;
+    background-color: rgba(127, 255, 212, 0);
     height: 56vh;
     justify-content: center;
     display: flex;
@@ -41,6 +41,8 @@ body{
 
     .lifebar{
         margin: auto;
+        font-size: 30px;
+        font-family: HeavyPixel;
     }
 
     .actualUpgrade{
@@ -53,17 +55,20 @@ body{
     }
 
     .DMGs{
-        background-color: darkblue;
+        background-color: rgba(9, 9, 59, 0.377);
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 100%;
+        width: 50%;
         text-align: center;
+        font-size: 25px;
+        border-radius: 50px;
+        margin: auto;
     }
 }
 
 .bottomApp{
-    background-color: blueviolet;
+    background-color: rgba(86, 47, 122, 0.164);
     height: 40vh;
     padding: 20px;
 
@@ -78,15 +83,18 @@ body{
             margin-top: 10px;
             margin-bottom: 10px;
             width: 100%;
-            background-color: crimson;
+            background-color: rgb(105, 15, 33);
             padding-top: 7px;
             padding-bottom: 7px;
             font-size: 20px;
+            align-items: center;
+            
 
             p{
                 display: flex;
-                justify-items: flex-end;
+                justify-items: center;
                 align-items: center;
+                
             }
 
             button{
@@ -98,6 +106,15 @@ body{
                 font-size: 20px;
                 background-color: orange;
                 
+                
+            }
+
+            img{
+                width: 50px;
+            }
+
+            span{
+                align-items: center;
             }
             
         }

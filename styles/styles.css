@@ -22,7 +22,7 @@ body {
 }
 
 .app {
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0);
   width: 30%;
   margin: auto;
   min-height: 100vh;
@@ -36,7 +36,7 @@ body {
 }
 
 .topApp {
-  background-color: aquamarine;
+  background-color: rgba(127, 255, 212, 0);
   height: 56vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -53,6 +53,8 @@ body {
 
 .topApp .lifebar {
   margin: auto;
+  font-size: 30px;
+  font-family: HeavyPixel;
 }
 
 .topApp .actualUpgrade {
@@ -64,7 +66,7 @@ body {
 }
 
 .topApp .DMGs {
-  background-color: darkblue;
+  background-color: rgba(9, 9, 59, 0.377);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -75,12 +77,15 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100%;
+  width: 50%;
   text-align: center;
+  font-size: 25px;
+  border-radius: 50px;
+  margin: auto;
 }
 
 .bottomApp {
-  background-color: blueviolet;
+  background-color: rgba(86, 47, 122, 0.164);
   height: 40vh;
   padding: 20px;
 }
@@ -100,17 +105,20 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   width: 100%;
-  background-color: crimson;
+  background-color: #690f21;
   padding-top: 7px;
   padding-bottom: 7px;
   font-size: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .bottomApp .upgradeMenu .upgrade p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-items: flex-end;
+  justify-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -129,6 +137,16 @@ body {
   font-family: LightPixel;
   font-size: 20px;
   background-color: orange;
+}
+
+.bottomApp .upgradeMenu .upgrade img {
+  width: 50px;
+}
+
+.bottomApp .upgradeMenu .upgrade span {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .bottomApp .upgradeMenu * {
