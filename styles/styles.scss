@@ -18,7 +18,8 @@ body{
 }
 
 .main{
-    background-image: url("/background/background.jpg");
+    background-image: url("/background.jpg");
+    
     min-height: 100vh;
 }
 
@@ -106,7 +107,6 @@ body{
                 font-size: 20px;
                 background-color: orange;
                 
-                
             }
 
             img{
@@ -134,5 +134,10 @@ body{
         
     }
     
+}
+
+
+.upgradeDisabled{
+    background-color: gray !important;
 }
 

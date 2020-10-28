@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="icon" href="./assets/enemies/bullet1.png">
     <title>Enter The Gungeon IDLE clicker</title>
+    <script src="./styles/script.js" defer></script>
 </head>
 <body>
     <div class="main">
@@ -16,14 +17,11 @@
 
             <div class="topApp">
                 <div class="lifebar">HP: <span id="actualHP">2000</span></div>
-                <div class="enemy">
-                    <img src="./assets/enemies/bullet1.png">
+                <div class="enemy" id="enemy">
+                    <img id="enemyImg" src="">
                 </div>
 
-                <div class="DMGs">
-                    <div class="dmgOnclick">DMG on click</div>
-                    <div class="upgradeDPS">DPS: </div>
-                </div>
+             
 
                 
             </div>
@@ -36,49 +34,49 @@
                     <div class="upgrade">
                         <p><span id="lvlDPS">LVL.1</span> Actual DPS: <span id="actualDPS">1</span>
                         
-                            <button>Upgrade DPS
-                                <p>+ 10 DPS</p>
+                            <button id="buttonDPS">Upgrade DPS
+                                <p id="dpsbutton">+ 1 DPS</p>
                             </button>
                         </p>
                     </div>
 
                     <div class="upgrade">
-                        <p><span id="lvlUpgrade1">LVL.1</span>DMG: <span id="upgradeDPS1">1</span>
+                        <p><span id="lvlUpgrade1">LVL.X</span>DMG: <span id="upgradeDPS1">X</span>
                         
                                 
                             <img src="./assets/weapons/Baloon_Gun.png">
-                            <button>Upgrade DMG
-                                <p>+ 10 DMG</p>
+                            <button id="upgradeButton1">Upgrade DMG
+                                <p>+ X DMG</p>
                             </button>
                         </p>
                     </div>
 
                     <div class="upgrade">
-                        <p><span id="lvlUpgrade2">LVL.1</span>DPS: <span id="upgradeDPS2">1</span>
+                        <p><span id="lvlUpgrade2">LVL.X</span>DPS: <span id="upgradeDPS2">X</span>
                             <img src="./assets/weapons/Trank_Gun.png">
-                            <button>Upgrade DMG
-                                <p>+ 10 DMG</p>
+                            <button id="upgradeButton2">Upgrade DMG
+                                <p>+ X DMG</p>
                             </button>
                         </p>
                     </div>
 
                     <div class="upgrade">
-                        <p><span id="lvlUpgrade3">LVL.1</span> 
-                           DPS: <span id="upgradeDPS3">1</span>
+                        <p><span id="lvlUpgrade3">LVL.X</span> 
+                           DPS: <span id="upgradeDPS3">X</span>
                         
                             <img src="./assets/weapons/Mourning_Star.png">
-                            <button>Upgrade DMG
-                                <p>+ 10 DMG</p>
+                            <button id="upgradeButton3">Upgrade DMG
+                                <p>+ X DMG</p>
                             </button>
                         </p>
                     </div>
 
                     <div class="upgrade">
-                        <p><span id="lvlUpgrade4">LVL.1</span>DPS: <span id="upgradeDPS4">1</span>
+                        <p><span id="lvlUpgrade4">LVL.X</span>DPS: <span id="upgradeDPS4">X</span>
                         
                             <img src="./assets/weapons/Slinger.png">
-                            <button>Upgrade DPS
-                                <p>+ 10 DPS</p>
+                            <button id="upgradeButton4">Upgrade DPS
+                                <p>+ X DPS</p>
                             </button>
                         </p>
                     </div>
